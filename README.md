@@ -85,6 +85,11 @@ $ slack run
 
 Connected, awaiting events
 ```
+![create_board_form](https://user-images.githubusercontent.com/108959677/193082881-e1484107-6c6d-4940-a788-059002903f55.png)
+
+![created_board](https://user-images.githubusercontent.com/108959677/193082901-c1dd4276-4266-4a37-afa5-907c58209bdd.png)
+
+![create_board_message](https://user-images.githubusercontent.com/108959677/193082916-ef434ae7-be1e-43eb-b33e-6c414ff063e3.png)
 
 Once running, click the
 [previously created Shortcut URL](#create-a-link-trigger) associated with the
