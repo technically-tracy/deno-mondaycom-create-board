@@ -44,7 +44,7 @@ export default SlackFunction(
           'Content-Type': 'application/json',
           
           //Needs to go in .env file
-          'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjE4MzM3ODQ3NSwidWlkIjozNTEyODQwNSwiaWFkIjoiMjAyMi0wOS0yOFQxMzowNDo0Mi4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTM1ODMyODYsInJnbiI6InVzZTEifQ.plkvrYCdif6k3aj6QAbRFqwazIed94Utd9IwF4xn7M4',
+          'Authorization': 'Your_Auth_Key',
          },
          body: JSON.stringify({
            'query' : query
