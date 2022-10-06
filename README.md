@@ -23,7 +23,7 @@ requires any of [the Slack paid plans](https://slack.com/pricing).
 
 ### Install the Slack CLI
 
-To use this sample, you first need to install and configure the Slack CLI.
+To use this sample, you must first install and configure the Slack CLI.
 Step-by-step instructions can be found in our
 [Quickstart Guide](https://api.slack.com/future/quickstart).
 
@@ -49,7 +49,7 @@ run. These Triggers can be invoked by a user, or automatically as a response to
 an event within Slack.
 
 A [Link Trigger](https://api.slack.com/future/triggers/link) is a type of
-Trigger that generates a **Shortcut URL** which, when posted in a channel or
+Trigger that generates a **Shortcut URL**, which, when posted in a channel or
 added as a bookmark, becomes a link. When clicked, the Link Trigger will run the
 associated Workflow.
 
@@ -102,7 +102,7 @@ To stop running locally, press `<CTRL> + C` to end the process.
 ### `manifest.ts`
 
 The [app manifest](https://api.slack.com/future/manifest) contains the app's
-configuration. This file defines attributes like app name and description.
+configuration. This file defines attributes, such as app name and description.
 
 ### `slack.json`
 
@@ -113,22 +113,22 @@ script hooks that are executed by the CLI and implemented by the SDK.
 
 [Functions](https://api.slack.com/future/functions) are reusable building blocks
 of automation that accept inputs, perform calculations, and provide outputs.
-Functions can be used independently or as steps in Workflows.
+Functions can be used independently, or as steps within Workflows.
 
 ### `/workflows`
 
-A [Workflow](https://api.slack.com/future/workflows) is a set of steps that are
+[Workflows](https://api.slack.com/future/workflows) are sets of steps that are
 executed in order. Each step in a Workflow is a function.
 
-Workflows can be configured to run without user input or they can collect input
+Workflows can be configured to run without user input, or they can collect input
 by beginning with a [form](https://api.slack.com/future/forms) before continuing
-to the next step.
+on to the next step.
 
 ### `/triggers`
 
 [Triggers](https://api.slack.com/future/triggers) determine when Workflows are
 executed. A trigger file describes a scenario in which a workflow should be run,
-such as a user pressing a button or when a specific event occurs.
+such as a user pressing a button or after a specific event occurs.
 
 To view all documentation and guides available, visit the
 [Overview page](https://api.slack.com/future/overview).
