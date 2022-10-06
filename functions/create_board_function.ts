@@ -44,7 +44,7 @@ export default SlackFunction(
           'Content-Type': 'application/json',
           
           //Needs to go in .env file
-          'Authorization': 'Your_Auth_Key',
+          'Authorization': 'Your_Auth_Key', // Replace with your key
          },
          body: JSON.stringify({
            'query' : query
